@@ -1,0 +1,30 @@
+<div class="row">
+    <!-- column -->
+    <div class="">
+        <!-- Card -->
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Welcome to InsureSense</h4>
+                <p class="card-text"></p>
+                <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <input type="text" placeholder="Name" name="name" ngModel required #name="ngModel">
+                        </div>
+                        <div class="col-lg-5">
+                            <input type="text" placeholder="Email" email name="email" ngModel required #email="ngModel">
+                        </div>
+                        <div class="col-lg-6">
+                            <textarea placeholder="Messages" name="messages" ngModel required  
+                                #messages="ngModel" style="margin-top: 30px;width: 100%;height: 200px;" ></textarea>
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="submit" value="Send" class="btn btn-sm btn-info" style="margin-left:50px;margin-top: 30px;" >
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

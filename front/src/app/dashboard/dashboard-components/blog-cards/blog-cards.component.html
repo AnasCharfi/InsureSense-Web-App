@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-md-6 col-lg-3" *ngFor='let blogcard of blogcards'>
+        <div class="card" style="border: solid 2px #1c506f; border-radius: 20px;">
+            
+            <div class="card-body">
+                <h4 class="card-title">{{blogcard.title}}</h4>
+                <h6 class="card-subtitle">{{blogcard.subtitle}}</h6>
+                <p class="mt-3">{{blogcard.subtext}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-lg-3" *ngFor='let dataminingcard of dataminingcards'>
+        <div class="card" style="border: solid 2px #259176; border-radius: 20px;">
+            
+            <div class="card-body" >
+                <h4 class="card-title">{{dataminingcard.title}}</h4>
+                <h6 class="card-subtitle">{{dataminingcard.subtitle}}</h6>
+                <p class="mt-3">{{dataminingcard.subtext}}</p>
+            </div>
+        </div>
+    </div>
+</div>

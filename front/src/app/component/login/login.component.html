@@ -1,0 +1,74 @@
+<h4 class="font-medium my-3">A word from BluBerry</h4>
+<!-- Row -->
+<div class="row">
+  <!-- column -->
+  <div class="">
+    <!-- Card -->
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Welcome to <u>InsureSense</u></h4>
+        <p class="card-text">
+          This page is made only for users who have permission by BluBerry Team or who have a written signed License
+          which can be also delivered only by <u>BluBerry</u>,
+          anyone else is not allowed under any circumstances to be logged in on this platform, for any support needed or
+          to complaints about anything, our team will be
+          more than happy to answer your questions on: <a href="mailto:bluBerry@esprit.tn">bluBerry@esprit.tn</a>
+        </p>
+        <a style="float:right;" href="javascript:void(0)" class="btn btn-light-success">Have a nice <u>LIFE!</u></a>
+      </div>
+    </div>
+    <!-- Card -->
+  </div>
+  <!-- column -->
+</div>
+<!-- Row -->
+
+
+<!-- Row -->
+<div class="row">
+  <!-- column -->
+  <div>
+    <!-- Card -->
+    <!-- ---------------------
+                      start Card title
+                  ---------------- -->
+    <div class="card">
+
+      <div class="col-lg-3 col-md-6 mx-auto "><img class="card-img-top img-responsive "
+          style="width: 300px;margin-top: 20px;" src="assets/images/bg/logo.png" alt="Card image cap" /></div>
+<!--      <form  (ngSubmit)="login(email.value,password.value)">-->
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="card-body">
+          <h4 class="card-title">Login</h4>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mx-auto ">
+              <p class="card-text">
+                Email
+              </p>
+              <input id="email" formControlName="email" #email placeholder="bluBerry@esprit.tn">
+            </div>
+            <div class="col-lg-3 col-md-6 mx-auto ">
+              <p class="card-text">
+                Password
+              </p>
+              <input id="password" #password type="password" formControlName="password" placeholder="insuresense | 4 ERP-BI 4">
+            </div>
+          </div>
+          <br>
+
+          <div class="text-center">
+            <button type="submit" style="margin-top:30px;" class="btn btn-outline-success ">Get me in !</button>
+          </div>
+
+        </div>
+      </form>
+    </div>
+    <!-- ---------------------
+                      end Card title
+                  ---------------- -->
+    <!-- Card -->
+  </div>
+  <!-- column -->
+
+</div>
+<!-- Row -->
