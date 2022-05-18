@@ -1,1 +1,0 @@
-Live preview ya chef: https://demos.wrappixel.com/free-admin-templates/angular/monster-angular-free/angular/dashboard
